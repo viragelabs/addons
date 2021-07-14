@@ -3,7 +3,7 @@
   "version": "1.19",
   "slug": "avahi_reflector_mqtt",
   "description": "avahi-daemon MQTT Service Broadcast",
-  "url": "https://github.com/brandondb1/Addons/tree/main/avahi-reflector",
+  "url": "https://github.com/viragelabs/Addons/tree/main/avahi-reflector",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
