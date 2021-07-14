@@ -1,7 +1,7 @@
 {
   "name": "VirageHub Active Cooling",
-  "version": "28",
-  "slug": "argon_one_temp",
+  "version": "2.01",
+  "slug": "virage_hub_temp",
   "description": "Keeping your VirageHub cool.",
   "arch": ["armhf", "armv7", "aarch64"],
   "auth_api": true,

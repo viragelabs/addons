@@ -1,14 +1,11 @@
-![image](https://raw.githubusercontent.com/adamoutler/HassOSArgonOneAddon/main/gitResources/activecooling.jpg)
+![image](https://raw.githubusercontent.com/viragelabs/addons/main/viragehubcooling/gitResources/activecooling.jpg)
 
-This is an addon for Argon One in Home Assistantant.
-It's essentially a script that runs in a docker container.
-It enables and automates the Argon One Active Cooling System with your specifications.
+This is an addon for the VirageHub, running Home Assistantant.
 
-This Addon keeps your temperature within specified ranges.
-![image](https://raw.githubusercontent.com/adamoutler/HassOSArgonOneAddon/main/gitResources/FanRangeExplaination.png)
+This addon automatically adjusts the fan in the case to keep the temperature within safe ranges.
+![image](https://raw.githubusercontent.com/viragelabs/addons/main/viragehubcooling/gitResources/FanRangeExplaination.png)
 
 # Support
 
-Need support? Click [here](https://community.home-assistant.io/t/argon-one-active-cooling-addon/262598/8).
-Try to be detailed about your feedback.
-If you can't be detailed, then please be as obnoxious as you can be.
+Need support? Click [here](https://github.com/viragelabs/addons/tree/main/viragehubcooling).
+
