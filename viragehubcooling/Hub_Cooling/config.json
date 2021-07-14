@@ -9,7 +9,7 @@
   "hassio_role": "homeassistant",
   "hassio_api": true,
   "devices": ["/dev/i2c-1"],
-  "url": "https://community.home-assistant.io/t/argon-one-active-cooling-addon/262598/",
+  "url": "https://github.com/viragelabs/addons/tree/main/viragehubcooling/Hub_Cooling",
   "map": ["config", "ssl", "addons", "backup", "share", "media"],
   "options": {
     "C or F": "C",
