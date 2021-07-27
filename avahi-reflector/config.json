@@ -1,8 +1,8 @@
 {
   "name": "Avahi Reflector MQTT",
-  "version": "1.21",
+  "version": "1.22",
   "slug": "avahi_reflector_mqtt",
-  "description": "avahi-daemon MQTT Service Broadcast",
+  "description": "Avahi MQTT Service Broadcast",
   "url": "https://github.com/viragelabs/Addons/tree/main/avahi-reflector",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
