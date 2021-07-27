@@ -1,6 +1,6 @@
 {
   "name": "Avahi Reflector MQTT",
-  "version": "1.2",
+  "version": "1.21",
   "slug": "avahi_reflector_mqtt",
   "description": "avahi-daemon MQTT Service Broadcast",
   "url": "https://github.com/viragelabs/Addons/tree/main/avahi-reflector",
