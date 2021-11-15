@@ -9,11 +9,11 @@
   "boot": "auto",
   "options": {
     "Interface": "eth0",
-    "Host Name": "hassio"
+    "Hostname": "hassio"
   },
   "schema": {
     "Interface": "str",
-    "Host Name": "str"
+    "Hostname": "str"
   },
   "host_network": true
 }
