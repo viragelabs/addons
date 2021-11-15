@@ -16,7 +16,7 @@ configuration:
     name: High Fan Speed Temp Threshold
     description: >-
       Temperature at which the fan speed increases to High
-  Quiet Profile:
+  QuietProfile:
     name: Enable Quiet Fan Speed Profile
     description: >-
       Run fan at lower speeds for quieter operation (Warning! may lead to increased heating)
