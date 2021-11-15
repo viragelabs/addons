@@ -3,8 +3,8 @@ This add-on enables the Raspberry Pi I<sup>2</sup>C bus to allow the fan in a Vi
 
 Thanks to [Adam Outler](https://github.com/adamoutler) for creating this add-on.
 
-# Support
+## Support
 Support is provided on the Home Assistant Community forums, [here](https://community.home-assistant.io/t/hassos-i2c-configurator/264167)
 
-# Operation
+## Operation
 Hit the start button and observe the logs.  You may uninstall the Add-On when complete. 
