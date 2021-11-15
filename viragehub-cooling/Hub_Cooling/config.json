@@ -9,7 +9,7 @@
   "hassio_role": "homeassistant",
   "hassio_api": true,
   "devices": ["/dev/i2c-1"],
-  "url": "https://github.com/viragelabs/addons/tree/main/viragehub-cooling/Hub_Cooling",
+  "url": "https://github.com/viragelabs/addons/tree/main/viragehub-cooling",
   "map": ["config", "ssl", "addons", "backup", "share", "media"],
   "options": {
     "CorF": "C",
