@@ -2,7 +2,7 @@ A containerized version of Avahi Reflector for Home Assistant, configured to bro
 
 This will allow Virage WiFi-based devices (as well as other devices relying on MQTT) to find and connect to an MQTT broker installed on Home Assistant through automatic (mDNS) network discovery.  Note that this add-on assumes you have installed Mosquitto MQTT broker (or equivalent) on your Home Assistant instance, and that it is accessible on the same IP address as Home Assistant.
 
-##Installation
+Installation
 
 From the Supervisor screen in your Home Assistant, go to the Add-on Store tab.  Click the three dots in the upper right corner of the window, and choose **Repositories**.
 
