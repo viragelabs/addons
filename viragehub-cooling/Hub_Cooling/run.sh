@@ -101,7 +101,7 @@ t1=$(mkfloat $(jq -r '.LowRange' <options.json))
 t2=$(mkfloat $(jq -r '.MediumRange'<options.json))
 t3=$(mkfloat $(jq -r '.HighRange'<options.json))
 quiet=$(jq -r '.QuietProfile'<options.json)
-createEntity=$(jq -r '."Create Fan Speed & Temp entities in Home Assistant"' <options.json)
+createEntity=$(jq -r '.Entities' <options.json)
 
 
 ###
