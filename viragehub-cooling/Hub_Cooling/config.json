@@ -12,19 +12,19 @@
   "url": "https://github.com/viragelabs/addons/tree/main/viragehub-cooling/Hub_Cooling",
   "map": ["config", "ssl", "addons", "backup", "share", "media"],
   "options": {
-    "C or F": "C",
-    "LowRange": 40,
-    "MediumRange": 50,
-    "HighRange": 60,
-    "QuietProfile": false,
+    "Celsius/Fahrenheit": "C",
+    "Low Speed Temp": 40,
+    "Medium Speed Temp": 50,
+    "High Speed Temp": 60,
+    "Use Quiet Profile": false,
     "Create Fan Speed & Temp entities in Home Assistant": true
   },
   "schema": {
-    "C or F": "str",
-    "LowRange": "int(0,255)",
-    "MediumRange": "int(0,255)",
-    "HighRange": "int(0,255)",
-    "QuietProfile": "bool",
+    "Celsius/Fahrenheit": "str",
+    "Low Speed Temp": "int(0,255)",
+    "Medium Speed Temp": "int(0,255)",
+    "High Speed Temp": "int(0,255)",
+    "Use Quiet Profile": "bool",
     "Create Fan Speed & Temp entities in Home Assistant": "bool"
   }
 }
