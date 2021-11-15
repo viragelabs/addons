@@ -8,12 +8,12 @@
   "startup": "application",
   "boot": "auto",
   "options": {
-    "allow_interfaces": "eth0",
-    "host_name": "hassio"
+    "Interface": "eth0",
+    "Host Name": "hassio"
   },
   "schema": {
-    "allow_interfaces": "str",
-    "host_name": "str"
+    "Interface": "str",
+    "Host Name": "str"
   },
   "host_network": true
 }
