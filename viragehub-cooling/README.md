@@ -14,21 +14,23 @@ Click **Add**.  You should now see the **Virage Addon Repository** listed.  You 
 
 Once installation is complete, go to the **Configuration** tab:
 
-### C or F
+### Unit of Measure
 
+Set the Unit of Measure for the temperature (note this impacts the temperatures that the Add-on uses for fan throttling, not the diaplay temperature in the Home Assistant sensor, which is governed by the measurement system set for Home Assistant).
 
-and set the interface you want the addon to use (default is eth0, unless you know you are using something different this is probably the correct setting).  Next, set the host_name as desired.  The default is **viragehub**, however you can set this to whatever you wish to allow your Home Assistant instance to be discoverable on host_name.local.
+### Fan Speed Threshold Temperatures
 
-Save your settings, return to the **Info** tab and click **Start**.  You can check on the **Logs** tab to see that the Add-on started up correctly, you should see:
+The temperature thresholds at which fan speeds will be changed.  At temperatures below the Low threshold, the fan will be off, above Low the fan will be at 33%, above Medium at 66%, and above High at 100%.
 
-*Server startup complete. Host name is viragehub.local. Local service cookie is 2929746891.
-Service "viragehub" (/services/ssh.service) successfully established.
-Service "viragehub" (/services/sftp-ssh.service) successfully established.
-Service "Mosquitto MQTT server on viragehub" (/services/mqtt.service) successfully established.*
+### Quiet Fan Speed Profile
 
-(with your host_name instead of viragehub, if you changed this value in the settings)
+This enables a lower-speed range of fan settings for quieter operation.  Note that the system may run significantly hotter if this is enabled and there is not adequate ambient cooling.
 
-Your Home Assistant instance should now be accessible at host_name.local, and devices should be able to find and connect to the MQTT Broker using mDNS discovery.
+### Create Fan Speed and Temperature Sensor Entities
+
+If enabled and the Add-on is (re)started, this setting will create sensors for fan speed and system temperature in Home Assistant.
+
+Once you have made any changes the above (if needed), save your settings, return to the **Info** tab and click **Start**.  You can check on the **Logs** tab to see that the Add-on started up correctly.
 
 ### To Manually Add a Repository
 
