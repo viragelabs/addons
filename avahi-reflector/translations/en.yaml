@@ -1,0 +1,10 @@
+---
+configuration:
+  interface:
+    name: Interface
+    description: >-
+      Network interface Avahi will use.
+  hostname:
+    name: Host Name
+    description: >-
+      Network name of the Home Assistant instance that will be broadcast.
