@@ -1,12 +1,13 @@
 {
   "name": "Avahi Reflector MQTT",
-  "version": "1.27",
+  "version": "1.28",
   "slug": "avahi_reflector_mqtt",
   "description": "Avahi MQTT Service Broadcast",
   "url": "https://github.com/viragelabs/Addons/tree/main/avahi-reflector",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
+  "host_network": true,
   "options": {
     "interface": "eth0",
     "hostname": "hassio"
