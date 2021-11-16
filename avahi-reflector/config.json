@@ -15,6 +15,5 @@
   "schema": {
     "interface": "str",
     "hostname": "str"
-  },
-  "host_network": true
+  }
 }
