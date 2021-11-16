@@ -6,11 +6,15 @@ This will allow [Virage WiFi-based devices]((https://www.viragelabs.com/products
 
 ## Installation
 
-Go to the **Virage Addon Repository** section, and click on the Avahi Reflector MQTT icon, and then on **Install** in the subsequent screen.
+Go to the **Virage Addon Repository** section, and click on the **Avahi Reflector MQTT** icon, and then on **Install** in the subsequent screen.
 
 ## Configuration
 
-Once installation is complete, go to the **Configuration** tab and set the interface you want the addon to use (default is eth0, unless you know you are using something different this is probably the correct setting).  Next, set the host_name as desired.  The default is **viragehub**, however you can set this to whatever you wish to allow your Home Assistant instance to be discoverable on host_name.local.
+Once installation is complete, go to the **Configuration** tab:
+
+Set the interface you want the addon to use (default is eth0, unless you know you are using something different this is probably the correct setting).
+
+Set the host_name as desired.  The default is **viragehub**, however you can set this to whatever you wish to allow your Home Assistant instance to be discoverable on host_name.local.
 
 Save your settings, return to the **Info** tab and click **Start**.  You can check on the **Logs** tab to see that the Add-on started up correctly, you should see:
 
