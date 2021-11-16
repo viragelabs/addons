@@ -10,6 +10,8 @@ To install this Add-on, click on the button below to add the repository to Home 
 
 Click **Add**.  You should now see the **Virage Addon Repository** listed.  You can now close the **Manage add-on repositories** dialog.  To install the VirageHub Active Cooling Add-on, scroll to the bottom of the screen, to the **Virage Addon Repository** section, and click on the **VirageHub Active Cooling** icon, and then on **Install** in the subsequent screen.
 
+Note that before using this Add-on, you must you must enable the I<sup>2</sup>C bus on your Raspberry Pi, which can be done using the [Pi4EnableI2C](https://github.com/viragelabs/addons/tree/main/Pi4EnableI2C) Add-on.
+
 ## Configuration
 
 Once installation is complete, go to the **Configuration** tab:
