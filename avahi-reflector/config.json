@@ -10,7 +10,7 @@
   "host_network": true,
   "options": {
     "interface": "eth0",
-    "hostname": "hassio"
+    "hostname": "viragehub"
   },
   "schema": {
     "interface": "str",
