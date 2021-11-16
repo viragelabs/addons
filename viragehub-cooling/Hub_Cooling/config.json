@@ -1,6 +1,6 @@
 {
   "name": "VirageHub Active Cooling",
-  "version": "2.04",
+  "version": "2.05",
   "slug": "virage_hub_temp",
   "description": "Keeping your VirageHub cool.",
   "arch": ["armhf", "armv7", "aarch64"],
