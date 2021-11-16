@@ -1,6 +1,6 @@
 # Introduction
 
-This Add-on allows you to control the active cooling in your VirageHub from within Home Assistant.  It creates sensors for both temperature and fan speed, and will change the fan speed in your VirageHub to one of three levels, based on temperature thresholds set in the configuration.
+This Add-on allows you to control the active cooling in your [VirageHub](https://www.viragelabs.com/products/#hub) from within Home Assistant.  It creates sensors for both temperature and fan speed, and will change the fan speed in your VirageHub to one of three levels, based on temperature thresholds set in the configuration.
 
 ## Installation
 
