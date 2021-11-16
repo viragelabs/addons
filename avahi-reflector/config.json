@@ -6,6 +6,7 @@
   "url": "https://github.com/viragelabs/Addons/tree/main/avahi-reflector",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
+  "apparmor": true
   "boot": "auto",
   "options": {
     "interface": "eth0",
