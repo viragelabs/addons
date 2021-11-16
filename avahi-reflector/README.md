@@ -2,7 +2,7 @@
 
 A containerized version of [Avahi](https://www.avahi.org/) Reflector for Home Assistant, configured to broadcast a .local URL and MQTT service descriptor for the Home Assistant instance it is installed on.
 
-This will allow Virage WiFi-based devices (as well as other devices relying on MQTT) to find and connect to an MQTT broker installed on Home Assistant through automatic (mDNS) network discovery.  Note that this add-on assumes you have installed Mosquitto MQTT broker (or equivalent) on your Home Assistant instance, and that it is accessible on the same IP address as Home Assistant.
+This will allow [Virage WiFi-based devices]((https://www.viragelabs.com/products/) (as well as other devices relying on MQTT) to find and connect to an MQTT broker installed on Home Assistant through automatic (mDNS) network discovery.  Note that this add-on assumes you have installed Mosquitto MQTT broker (or equivalent) on your Home Assistant instance, and that it is accessible on the same IP address as Home Assistant.
 
 ## Installation
 
