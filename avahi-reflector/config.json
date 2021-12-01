@@ -1,7 +1,7 @@
 {
-  "name": "Avahi MQTT",
+  "name": "Virage Avahi MQTT",
   "version": "1.28",
-  "slug": "avahi_reflector_mqtt",
+  "slug": "virage_avahi_mqtt",
   "description": "Avahi MQTT Service Broadcast",
   "url": "https://github.com/viragelabs/Addons/tree/main/avahi-mqtt",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
