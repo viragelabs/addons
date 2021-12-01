@@ -6,15 +6,15 @@ This will allow [Virage WiFi-based devices]((https://www.viragelabs.com/products
 
 ## Installation
 
-Go to the **Virage Addon Repository** section, and click on the **Avahi Reflector MQTT** icon, and then on **Install** in the subsequent screen.
+Go to the **Virage Addon Repository** section, and click on the **Virage Avahi MQTT** icon, and then on **Install** in the subsequent screen.
 
 ## Configuration
 
 <<<<<<< HEAD:avahi-mqtt/README.md
-Click **Add**.  You should now see the **Virage Addon Repository** listed.  You can now close the **Manage add-on repositories** dialog.  To install the Virage Avahi add-on, scroll to the bottom of the screen, to the **Virage Addon Repository** section, and click on the Virage Avahi MQTT icon, and then on **Install** in the subsequent screen.
+Click **Add**.  You should now see the **Virage Addon Repository** listed.  You can now close the **Manage add-on repositories** dialog.  To install the Virage Avahi Add-on, scroll to the bottom of the screen, to the **Virage Addon Repository** section, and click on the Virage Avahi MQTT icon, and then on **Install** in the subsequent screen.
 =======
 Once installation is complete, go to the **Configuration** tab:
->>>>>>> 06dc29fea02dd8b0d46361bbaf68064ecd16715e:avahi-reflector/README.md
+>>>>>>> 06dc29fea02dd8b0d46361bbaf68064ecd16715e:avahi-mqtt/README.md
 
 Set the **Interface** you want the addon to use (default is eth0, unless you know you are using something different this is probably the correct setting).
 
