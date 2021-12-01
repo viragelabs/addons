@@ -1,6 +1,6 @@
 {
   "name": "VirageHub Active Cooling",
-  "version": "2.03",
+  "version": "2.05",
   "slug": "virage_hub_temp",
   "description": "Keeping your VirageHub cool.",
   "arch": ["armhf", "armv7", "aarch64"],
@@ -8,6 +8,7 @@
   "homeassistant_api": true,
   "hassio_role": "homeassistant",
   "hassio_api": true,
+  "apparmor": true,
   "devices": ["/dev/i2c-1"],
   "url": "https://github.com/viragelabs/addons/tree/main/viragehub-cooling",
   "map": ["config", "ssl", "addons", "backup", "share", "media"],

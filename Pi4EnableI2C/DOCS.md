@@ -1,5 +1,7 @@
-No configuration required.  If problems are encountered please get all "Karen" in the foums and make sure to display attitude, because developers love that.  Alternatively, you can provide a log and tell us the problem, what you did, the model of your device, and what happened differently than what you expected.
+No configuration is needed to run this Add-on.
 
-Support is provided on the Home Assistant Community forums, [here](https://community.home-assistant.io/t/hassos-i2c-configurator/264167)
+After installing it, start it and read the Logs (be sure to click **Refresh**).  After the first run, the log entry will indicate that you will need to perform a hard (i.e. disconnect power from the Pi) reboot.  This cycle places the files needed for the I<sup>2</sup>C bus to work.
 
-Just hit the start button and observe the logs. Perform 2- pull-the-plug restart after starting to ensure it takes effect.  The first restart will emplace files.  The second will activate I2C.  You will see a message in the logs that I2C was found after the 2nd restart. You may uninstall the Add-On when complete. 
+When Home Assistant restarts, start the Add-on again and read the Logs.  The logs will again indicate that you need to perform a hard reboot.  This cycle enables the I<sup>2</sup>C bus.
+
+After Home Assistant restarts, start the Add-On again, and it should indicate in the Logs that I2C is properly installed.  You may now uninstall the Add-on - it is not needed for continued use of the I<sup>2</sup>C bus.

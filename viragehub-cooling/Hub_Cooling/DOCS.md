@@ -1,15 +1,3 @@
-# Introduction
-
-This Add-on allows you to control the active cooling in your [VirageHub](https://www.viragelabs.com/products/#hub) from within Home Assistant.  It creates sensors for both temperature and fan speed, and will change the fan speed in your VirageHub to one of three levels, based on temperature thresholds set in the configuration.
-
-Thanks to [Adam Outler](https://github.com/adamoutler) for creating the initial version of this add-on.
-
-## Installation
-
-Go to the **Virage Addon Repository** section of the Add-on Store, click on the **VirageHub Active Cooling** icon, and then on **Install** in the subsequent screen.
-
-Note that before using this Add-on, you must you must enable the I<sup>2</sup>C bus on your Raspberry Pi, which can be done using the [Pi4EnableI2C](https://github.com/viragelabs/addons/tree/main/Pi4EnableI2C) Add-on.
-
 ## Configuration
 
 Once installation is complete, go to the **Configuration** tab:
