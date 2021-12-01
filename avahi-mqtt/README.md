@@ -10,7 +10,7 @@ To install this Add-on, click on the button below to add the repository to Home 
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fviragelabs%2Faddons)
 
-Click **Add**.  You should now see the **Virage Addon Repository** listed.  You can now close the **Manage add-on repositories** dialog.  To install the Avahi Reflector add-on, scroll to the bottom of the screen, to the **Virage Addon Repository** section, and click on the Avahi Reflector MQTT icon, and then on **Install** in the subsequent screen.
+Click **Add**.  You should now see the **Virage Addon Repository** listed.  You can now close the **Manage add-on repositories** dialog.  To install the Virage Avahi add-on, scroll to the bottom of the screen, to the **Virage Addon Repository** section, and click on the Virage Avahi MQTT icon, and then on **Install** in the subsequent screen.
 
 Once installation is complete, go to the **Configuration** tab and set the interface you want the addon to use (default is eth0, unless you know you are using something different this is probably the correct setting).  Next, set the host_name as desired.  The default is **viragehub**, however you can set this to whatever you wish to allow your Home Assistant instance to be discoverable on host_name.local.
 
