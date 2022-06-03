@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
 # Home Assistant Add-on: Avahi Daemon for MQTT
-# Configures Avahi-Daemon to broadcast MQTT Service
+# Configures Avahi-Daemon to broadcast MQTT Service.
 # ==============================================================================
 readonly AVAHI_CONF='/etc/avahi/avahi-daemon.conf'
 declare HOSTNAME
