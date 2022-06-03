@@ -1,6 +1,6 @@
 {
   "name": "Virage Avahi MQTT",
-  "version": "1.63",
+  "version": "1.64",
   "slug": "virage_avahi_mqtt",
   "description": "Avahi MQTT Service Broadcast",
   "url": "https://github.com/viragelabs/addons/tree/main/avahi-mqtt",
