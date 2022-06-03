@@ -5,8 +5,6 @@
   "description": "Avahi MQTT Service Broadcast",
   "url": "https://github.com/viragelabs/addons/tree/main/avahi-mqtt",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "application",
-  "boot": "auto",
   "host_network": true,
   "options": {
     "interface": "eth0",
