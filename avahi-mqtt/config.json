@@ -6,6 +6,8 @@
   "url": "https://github.com/viragelabs/addons/tree/main/avahi-mqtt",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "host_network": true,
+  "startup": "application",
+  "boot": "auto",
   "init": false,
   "options": {
     "interface": "eth0",
